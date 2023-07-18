@@ -1,0 +1,9 @@
+class Employee {
+  ProtoType() {
+    console.log("This is Prototype Method");
+  }
+}
+
+let emp = new Employee();
+emp.ProtoType();
+
