@@ -1,14 +1,16 @@
-let p = new Promise(function (resolve, reject) {
+let promise = new Promise(function (resolve, reject) {
   let a = 1 + 2;
   if (a == 3) {
-    resolve("Succes");
+    resolve("Success");
   } else {
     reject("Failed");
   }
 });
 
-p.then((msg) => {
-  console.log(msg);
-}).catch((msg) => {
-  console.log(msg);
-});
+promise
+  .then((print) => {
+    console.log(print);
+  })
+  .catch((print) => {
+    console.log(print);
+  });
