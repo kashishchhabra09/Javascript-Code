@@ -1,0 +1,10 @@
+let printEvenChar = () => {
+  let str = 'hello world';
+  let result = '';
+  for (let i = 0; i < str.length; i++) {
+    result += (i % 2 === 0) ? str[i].toUpperCase() : str[i].toLowerCase();
+  }
+  console.log(result);
+}
+
+printEvenChar();
