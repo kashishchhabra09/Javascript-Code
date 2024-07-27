@@ -6,3 +6,5 @@ for(let i=0;i<arr.length;i++){
     }
   }
 }
+// output 10,20
+// prints the duplicate elements in an array
